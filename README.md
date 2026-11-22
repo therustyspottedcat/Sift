@@ -15,10 +15,13 @@ Official downloads for **Sift**.
 | Linux (x64), Debian / Ubuntu package | [dugeuni-sift_0.9.0_amd64.deb](releases/0.9.0-alpha/dugeuni-sift_0.9.0_amd64.deb) | 38.1 MB |
 | Linux (x64), Fedora / RHEL package | [dugeuni-sift-0.9.0-1.x86_64.rpm](releases/0.9.0-alpha/dugeuni-sift-0.9.0-1.x86_64.rpm) | 30.4 MB |
 | Linux (x64), AppImage (other distributions) | [dugeuni-sift_0.9.0_x86_64.AppImage](releases/0.9.0-alpha/dugeuni-sift_0.9.0_x86_64.AppImage) | 35.9 MB |
+| macOS (Apple Silicon), disk image | [Sift_0.9.0_arm64.dmg](releases/0.9.0-alpha/Sift_0.9.0_arm64.dmg) | 31.1 MB |
 
 Windows: the installer is per-user and needs no administrator rights, the MSI installs for all users, and the portable ZIP installs nothing. The Windows builds are not signed.
 
 Linux requirements: Ubuntu 22.04, Debian 12, Fedora, RHEL / AlmaLinux 9 or later (glibc 2.28+). The AppImage needs FUSE 2; make it executable with `chmod +x`, or run it with `--appimage-extract-and-run` if FUSE 2 isn't installed. The Linux builds are not signed.
+
+macOS requirements: macOS 12 (Monterey) or later on Apple Silicon (M1 or newer); there is no Intel build yet. Open the DMG and drag Sift into Applications. The macOS build is not signed with an Apple Developer ID or notarized, so macOS blocks it the first time you open it: go to System Settings → Privacy & Security and click **Open Anyway**, or run `xattr -dr com.apple.quarantine /Applications/Sift.app` in Terminal.
 <!-- LATEST:END -->
 
 ## All versions
@@ -26,7 +29,7 @@ Linux requirements: Ubuntu 22.04, Debian 12, Fedora, RHEL / AlmaLinux 9 or later
 <!-- VERSIONS:START -->
 | Version | Date | Platforms |
 |---|---|---|
-| [0.9.0-alpha](releases/0.9.0-alpha/) | 2026-11-21 | Windows (x64), Linux (x64) |
+| [0.9.0-alpha](releases/0.9.0-alpha/) | 2026-11-21 | Windows (x64), Linux (x64), macOS (Apple Silicon) |
 <!-- VERSIONS:END -->
 
 ## Verify your download (optional)

@@ -7,3 +7,4 @@ All notable changes to Sift are listed here, newest first.
 - First public build.
 - Windows (x64): `.exe` installer, `.msi` package and portable ZIP.
 - Linux (x64): `.deb` package (Debian / Ubuntu), `.rpm` package (Fedora / RHEL) and AppImage.
+- macOS (Apple Silicon): `.dmg` disk image.
