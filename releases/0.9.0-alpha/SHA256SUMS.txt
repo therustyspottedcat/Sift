@@ -1,0 +1,3 @@
+17a23810fd5e7977a707a9000ba63faa06f8f52dd3371640baa2feb379092036  dugeuni-sift_0.9.0_x64-setup.exe
+18640b2392db9bf17dd7a39aabaf7604ea89ee3bd5a626d282a12d10a1028fa5  dugeuni-sift_0.9.0_x64_en-US.msi
+72ee5bd41251899a7ff368cd65ef8ce5c2dc4486d9133bc896c1bf4dc72dde66  Sift_0.9.0_x64_portable.zip
